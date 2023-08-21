@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #FAFAFA;
+}
+
+
+.leaflet-container {
+  height: 210;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 13px 31px 69px -50px rgba(0,0,0,0.75);
+}
+.dark body {
+  background-color: #202c37;
+}
