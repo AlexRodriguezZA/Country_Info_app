@@ -5,7 +5,7 @@ const Nav = ({handleTheme, theme}) => {
   return (
     <nav className="w-full h-20 shadow-md bg-white flex justify-between items-center dark:bg-darkBlue">
       <div className="pl-5 md:pl-10">
-        <h1 className="font-bold md:text-lg dark:text-white">Where in the word?</h1>
+        <h1 className="font-bold md:text-lg dark:text-white">Where in the world?</h1>
       </div>
 
       {
